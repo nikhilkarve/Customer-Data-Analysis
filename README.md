@@ -26,8 +26,10 @@ There are some important questions, answers of which may increase the profit of 
 ## Exploratory Data Analysis.
 Number of products sold every month.
 ![alt Number of products sold every month.](https://github.com/nikhilkarve/Customer-Data-Analysis/blob/main/viz/products.jpeg)
+
 Amount of money spent each month? 
 ![alt How much customer spend their money every month?](https://github.com/nikhilkarve/Customer-Data-Analysis/blob/main/viz/spending.jpeg)
+
 Revenue in November seems highest. This is an example of a critical information business can use. They can increase the advertisement of new products that month to promote them and increase their sell.
 
 ## RFM Analysis.
