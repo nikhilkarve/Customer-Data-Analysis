@@ -48,7 +48,8 @@ The RFM model is based on three quantitative factors :-
 
 ## Modeling Data for RFM Analysis.
 RFM Data
-- Dividing the RFM data in quantiles and assign values to the customers between 1 to 4 for all the three sections by comparing values to the quantiles. Here 4 will be the highest and 1 will be the lowest.
+- Dividing the RFM data in quantiles and assigning values to the customers between 1 to 4 for all the three sections by comparing values to the quantiles. Here 4 will be the highest and 1 will be the lowest.
+- 
 ![alt](https://github.com/nikhilkarve/Customer-Data-Analysis/blob/main/dataframes/rf_model.jpeg)
 
 - Champions are your best customers, who bought most recently, most often, and are heavy spenders. Reward these customers. They can become early adopters for new products and will help promote your brand.
@@ -66,7 +67,7 @@ We know that K-means clustering algorithm is sensitive to outliers. There are ou
 
 - How to identify outliers?
 
-One way of identifying outliers is to compare the gaps between the median, minimum, maximum, 1st quartile, and 3rd quartile values. If the gap between the 3rd quartile and the maximum value is noticeably larger than the gap between the median and the 3rd quartile, this suggests that the maximum value is unusual and is likely to be an outlier. Similarly, if the gap between the 1st quartile and the minimum value is noticeably larger than the gap between the median and the 1st quartile, this suggests that the minimum value is unusual and is likely to be an outlier.
+One way of identifying outliers is to compare the gaps between the median, minimum, maximum, 1st quartile, and 3rd quartile values. If the gap between the 3rd quartile and the maximum value is noticeably larger than the gap between the median and the 3rd quartile, this suggests that the maximum value is unusual and is likely to be an outlier. Similarly, if the gap between the 1st quartile and the minimum value is noticeably larger than the gap between the median and the 1st quartile, this suggests that the minimum value is unusual and is likely to be an outlier. Mathematically, multiplying the interquartile range (IQR) by 1.5 will give us a way to determine whether a certain value is an outlier. If we subtract 1.5 x IQR from the first quartile (lower threshold), any data values that are less than this number are considered outliers. Similarly, if we add 1.5 x IQR to the third quartile (upper threshold), any data values that are greater than this number are considered outliers.
 
 - How to deal with outliers here?
 
@@ -86,6 +87,7 @@ We found that 4 is the optimal value of K here.
 
 ## Interpretation of the clusters formed.
 ![alt](https://github.com/nikhilkarve/Customer-Data-Analysis/blob/main/viz/final_clusters.png)
+
 - We can interpret these clusters as follows:
 
 Cluster 2 has the lowest 'Recency' value, highest 'Frequency' value and highest 'Monetary' value. Hence, we can safely say that the Cluster 3 represents 'Champion' customers. (Those who buys frequently, spend good amount and are amoong recent buyers). This comprises around 24% of our data. Reward these customers. They can become early adopters for new products and will help promote your brand.
