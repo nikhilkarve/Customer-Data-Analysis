@@ -9,10 +9,10 @@ Retail business is selling consumers products/services for their personal use. T
 ## Business Problem.
 
 There are some important questions, answers of which may increase the profit of the business.
-- Number of product sold every month.
+- Number of products sold every month.
 - Amount of money customers spend every month.
 - Performing customer segmentation analysis.
-- Recommendation based on segmentation analysis.
+- Recommendations based on segmentation analysis.
 
 ## Dataset.
 [Source](https://archive.ics.uci.edu/ml/datasets/online+retail). 
